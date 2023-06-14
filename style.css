@@ -1,0 +1,259 @@
+
+@keyframes running {
+    from {
+      transform: translateX(0%);
+    }
+    
+  
+    to {
+      transform: translateX(100vw);
+    }
+  }
+    
+.move{
+    width:200px;
+    height:200px;
+    border:solid black;
+}
+
+.moveBox{
+    /*animation: running 3s;*/
+    background-color: red;
+animation-name:running;
+animation-duration: 3s;
+}
+
+
+.majorContainer{
+    width: 1500px;
+    height: 400px;
+    border:solid black
+    
+}
+
+
+
+.bio{
+    height:100px;
+    width:100px;
+    border:solid black;
+    margin-left:250px;
+    margin-bottom: 400px;
+}
+
+
+
+
+.blackBar{
+    
+        background: black;
+        width: 1500px;
+        height:40px;
+      
+}
+.textDiv{
+    margin-left: 550px;
+
+}
+.firstText{
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+}
+.whiteBar{
+    background: lightgray;
+        width: 1500px;
+        height:400px;
+        border:solid black
+        display-flex;
+        
+        
+}
+.grabDiv{
+    text-align: center;
+}
+.girlContainer{
+    height: 200px;
+    width:300px;
+    border: solid black;
+    margin-left:300px;
+    margin-bottom:600px;
+}
+.pic60{
+    height:200px;
+    width:300px;
+}
+.salesText{
+    font-family: arial;
+    color:black;
+    font-size:20px;
+}
+.salesBtn{
+    background-color: blue;
+    height:100px;
+    width: 100px;
+    border-radius:10px;
+}
+.whiteParent{
+    display:flex;
+}
+
+.imageDiv{
+    height: 40px;
+    width: 40px;
+    
+    
+}
+.BigPhotoDiv{
+    width:1500px;
+    height:800px;
+    display:flex;
+}
+
+.pic{
+    margin-top: 500px;
+    width:100px;
+    height:100px;
+}
+.formDiv{
+    margin-left: 400px;
+}
+.pic1{
+width:100px;
+height: 100px;
+
+}
+.selectionDiv{
+    margin-left: 600px;
+
+}
+.menSelect{
+    font-family: arial;
+    font-size: 15px;
+}
+.weAre{
+    margin-bottom: 800px;
+    margin-left: 300px;
+
+}
+.weareTxt{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.pic2{
+    height: 450px;
+    width: 1500px;
+    
+}
+.paragraphDiv{
+    height:500px;
+    width:500px;
+    margin-top: 300px;
+    margin-left: 1200px;
+    margin-bottom: 1000px;
+
+}
+
+.searchBarDiv{
+    margin-top: 100px;
+    display: flex;
+}
+.box{
+    width:100px;
+    height:100px;
+    border: solid black;
+}
+.circle{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border:solid black
+}
+
+
+
+/*
+.offclass{
+    font-size: 40px;
+    color:white;
+    font-family: arial;
+    margin-bottom: 500px;
+}
+
+.offhere{
+    color: black;
+    font-family:arial
+}
+.lowerContainer{
+    display:flex;
+}
+
+.ImagehereContainer{
+    margin-bottom: 300px;
+
+}
+.pic10{
+    height:300px;
+    width:600px;
+}
+
+
+.paragraphDiv{
+    margin-bottom: 250px;
+}
+.moveDiv{
+    margin-right: 100px;
+}
+.buttonDiv{
+/    display:flex;
+}
+.btn3{
+    font-family: arial;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.btn4{
+    font-family: arial;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+}
+.lowerDiv{
+    border:solid black;
+    width:1500px;
+    height:1400px;
+    display:flex;
+}
+.photoLowerDiv1{
+    display:flex;
+
+}
+.photoLowerText7{
+    color: black;
+    font-family: arial;
+    font-size: 25px;
+}
+.photo15{
+    padding-top: 25px;
+
+}
+.pic15{
+    height: 400px;
+    width:600px;
+    margin-top:200px;
+}
+.saleText{
+    text-underline-position: under;
+    color :black;
+    font:size 15px;
+    font-family: arial;
+    
+}
+.mainParent{
+    margin-bottom: 500px;
+}
